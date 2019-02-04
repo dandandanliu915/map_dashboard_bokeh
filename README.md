@@ -1,7 +1,10 @@
-# bokeh-map-visualization
-This is how I implement bokeh module to draw a map visualization with filters in Python.
+# Map dashoboard implemented by Python module bokeh
 
-Sample screen shot as following:
+I implemented a map dashboard with interactive filters in Python module bokeh. The original data source was from Burning Glass API. Building such visualizations of the raw data will make the life of data analytics eaiser. It also help other stakeholders to play around and gain insights. 
+
+People will not prefer Python to do visualizations most of the time. If you're only familiar with modules such as matplotlib, it won't be able for you to realize much dashboard functionalities, especially interaction. Of course it will be much easier to build something simialr by Tableau, but usually such BI software licenses are not free. Besides, Python is such handy and concise language for students and professionals in data science field to process data. Why can't we just have a Python pipeline from raw data to BI? Well, here you go, bokeh. Bokeh is such a module it can create beautiful visualizations, and its galary impresses me every time. With a bit basic knowledge of javascript, one could easily make a fancy dashboard for free. 
+
+Sample screen shot of phase 1 is as following:
 
 ![map-ScreenShot.png](map-ScreenShot.png)
 
